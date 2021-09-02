@@ -1,9 +1,17 @@
 use_frameworks!
 
-platform :ios, '9.0'
-
+platform :ios, '13.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cooeydevelopers.visualstudio.com/IOS/_git/CocoaPods'
 target 'sample_Example' do
   pod 'sample', :path => '../'
+  pod 'Kingfisher'
+  pod 'RealmSwift', '5.5'
+  pod 'CooeyAPIClient', :git => 'https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyAPIClient'
+  pod 'CooeyRealmHelper', :git => 'https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyRealmHelper'
+  pod 'Careplan', :git => 'ssh://cooeydevelopers@vs-ssh.visualstudio.com:22/IOS/_ssh/Careplan'
+  pod 'FormsPod', :git => 'https://cooeydevelopers.visualstudio.com/IOS/_git/FormsPod'
+  pod 'CustomComponents', :git => 'https://cooeydevelopers.visualstudio.com/IOS/_git/CustomComponents'
 
   target 'sample_Tests' do
     inherit! :search_paths
