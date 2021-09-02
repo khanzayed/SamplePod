@@ -1,0 +1,131 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Careplan (5.3.15):
+    - CooeyAPIClient
+    - CooeyRealmHelper
+    - CustomComponents
+    - FormsPod
+    - iOSEssentials
+    - IQKeyboardManagerSwift
+    - MBCircularProgressBar
+    - ObjectMapper
+  - CooeyAPIClient (2.10.7):
+    - Alamofire (~> 4.9.1)
+    - CooeyDotzu
+    - iOSEssentials
+  - CooeyDotzu (0.1.6)
+  - CooeyRealmHelper (4.1.10):
+    - CooeyAPIClient
+    - ObjectMapper
+    - RealmSwift
+    - SwiftKeychainWrapper
+  - CustomComponents (3.2.0):
+    - CooeyAPIClient
+    - iOSEssentials
+    - IQKeyboardManagerSwift
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - FormsPod (1.2.3):
+    - CooeyAPIClient
+    - CooeyRealmHelper
+    - EVReflection
+    - iOSEssentials
+    - Kingfisher
+    - ObjectMapper
+    - RealmSwift
+  - iOSEssentials (3.2.18):
+    - lottie-ios
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.3.1)
+  - lottie-ios (3.2.3)
+  - MBCircularProgressBar (0.3.5)
+  - ObjectMapper (4.2.0)
+  - Realm (5.5.0):
+    - Realm/Headers (= 5.5.0)
+  - Realm/Headers (5.5.0)
+  - RealmSwift (5.5.0):
+    - Realm (= 5.5.0)
+  - sample (0.1.0)
+  - SwiftKeychainWrapper (4.0.1)
+
+DEPENDENCIES:
+  - "Careplan (from `ssh://cooeydevelopers@vs-ssh.visualstudio.com:22/IOS/_ssh/Careplan`)"
+  - CooeyAPIClient (from `https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyAPIClient`)
+  - CooeyRealmHelper (from `https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyRealmHelper`)
+  - CustomComponents (from `https://cooeydevelopers.visualstudio.com/IOS/_git/CustomComponents`)
+  - FormsPod (from `https://cooeydevelopers.visualstudio.com/IOS/_git/FormsPod`)
+  - Kingfisher
+  - RealmSwift (= 5.5)
+  - sample (from `../`)
+
+SPEC REPOS:
+  https://cooeydevelopers.visualstudio.com/IOS/_git/CocoaPods:
+    - CooeyDotzu
+    - iOSEssentials
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - EVReflection
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - MBCircularProgressBar
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - SwiftKeychainWrapper
+
+EXTERNAL SOURCES:
+  Careplan:
+    :git: "ssh://cooeydevelopers@vs-ssh.visualstudio.com:22/IOS/_ssh/Careplan"
+  CooeyAPIClient:
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyAPIClient
+  CooeyRealmHelper:
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyRealmHelper
+  CustomComponents:
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/CustomComponents
+  FormsPod:
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/FormsPod
+  sample:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  Careplan:
+    :commit: 3e98cdd388ef904ff71c6d1181af51c4b1eba3ca
+    :git: "ssh://cooeydevelopers@vs-ssh.visualstudio.com:22/IOS/_ssh/Careplan"
+  CooeyAPIClient:
+    :commit: 6b3d070ea52f55f962d7f790755c205533cf4d00
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyAPIClient
+  CooeyRealmHelper:
+    :commit: 621716e09995fc625e76b4dfb5acdfdd8bc31353
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/CooeyRealmHelper
+  CustomComponents:
+    :commit: 416b95d4636cd786b601accee385c9ae270823ed
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/CustomComponents
+  FormsPod:
+    :commit: 986ad758cb9e258b445f3f17aa539a6c9615d333
+    :git: https://cooeydevelopers.visualstudio.com/IOS/_git/FormsPod
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Careplan: 0052f3d4a42e7a504941dd9f37fc0e20ce75b2dd
+  CooeyAPIClient: 1c7101e54c388f49f748b8cc1fbe3173b9124a6a
+  CooeyDotzu: 5304ff969ccf6a2d5b10d2711c4f3baf94a1f2fa
+  CooeyRealmHelper: 4f9fac80cdcef091145639f3ceac64b3398ff434
+  CustomComponents: 05baa70a2f90a6f928c844a7d2250fbd27772503
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  FormsPod: e95ca7a396b060712c32de0471cd1a12c3a42391
+  iOSEssentials: 9f67292189d8e9f4f58d0b09441bcf8fe2d51aba
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Realm: fb399d76f44042e5cdfc630f33828fdb4d077345
+  RealmSwift: 3b7e62356207ef16d34de4e55d475163bd2062bb
+  sample: 1d047a9b937b0ee95527413f6f5c8b28238f1e25
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+
+PODFILE CHECKSUM: 7a172324dcc368a1284f1a9d8a167366149caa80
+
+COCOAPODS: 1.10.1
